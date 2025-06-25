@@ -11,3 +11,11 @@ A lightweight web application that monitors and displays your internet connectio
 - ⏱️ Last online timestamp recording
 - 📢 Temporary notification popups for status changes
 - 📱 Responsive design works on all devices
+
+## Technologies Used
+- HTML5
+- CSS3 (with animations)
+- JavaScript (ES6)
+- Google Fonts (Poppins)
+
+> Developed with ❤️ by [Kamran Javed](https://onedigitalline.com)

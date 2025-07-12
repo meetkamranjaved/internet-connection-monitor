@@ -58,3 +58,12 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("online", updateOnlineStatus);
   window.addEventListener("offline", updateOnlineStatus);
 });
+
+// Project: Internet Connection Monitor
+// Author: Kamran Javed
+// Portfolio: https://kamranjaved.com
+// Company: OneDigitalLine
+// Website: https://onedigitalline.com
+// Email: meet@kamranjaved.com
+// License: For personal or client use only. Redistribution prohibited.
+// © Kamran Javed. All rights reserved.

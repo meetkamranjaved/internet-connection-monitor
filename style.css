@@ -8,26 +8,26 @@ Email: meet@kamranjaved.com
 License: For personal or client use only. Redistribution prohibited.
 © Kamran Javed. All rights reserved.
 */
-
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #121212;
   text-align: center;
   padding: 50px;
-  background-color: #f5f5f5;
 }
 
 h1 {
-  color: #333;
+  color: #1f4b99;
   font-weight: 600;
 }
 
 .status-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 420px;
   margin: 30px auto;
-  padding: 20px;
-  max-width: 400px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: white;
 }
 
 .status-indicator {
@@ -39,16 +39,16 @@ h1 {
 }
 
 .online {
-  background-color: #4caf50;
+  background-color: #00d1b2;
 }
 
 .offline {
-  background-color: #f44336;
+  background-color: #ffd700;
 }
 
 .status-message {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   margin: 10px 0;
 }
 
@@ -59,19 +59,20 @@ h1 {
   transform: translateX(-50%);
   padding: 15px 25px;
   border-radius: 5px;
-  color: white;
   font-weight: 500;
+  color: #ffffff;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   z-index: 1000;
 }
 
 .online-notification {
-  background-color: #4caf50;
+  background-color: #00d1b2;
 }
 
 .offline-notification {
-  background-color: #f44336;
+  background-color: #ffd700;
+  color: #121212;
 }
 
 .show {
@@ -80,4 +81,15 @@ h1 {
 
 .hidden {
   display: none;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #1c1c1e;
+}
+
+footer a {
+  color: #1f4b99;
+  text-decoration: none;
 }

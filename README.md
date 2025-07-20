@@ -1,6 +1,7 @@
 # Internet Connection Monitor
+A modern, mobile-friendly online/offline connection status detector | [OneDigitalLine.com](https://onedigitalline.com)
 
-A lightweight web application that monitors and displays your internet connection status in real-time. It visually indicates when you're online or offline with clear notifications and maintains a record of when you were last connected.
+This is a clean, responsive UI component that shows your internet connectivity status in real-time. It’s sleek, user-friendly, and fully customizable — perfect for web apps, SaaS products, and admin dashboards.
 
 ---
 
@@ -10,21 +11,26 @@ A lightweight web application that monitors and displays your internet connectio
 ---
 
 ## 🚀 Demo
-[Live Demo](https://projects.kamranjaved.com/internet-connection-monitor)
+[Live Demo](https://projects.kamranjaved.com/mini-projects/internet-connection-monitor)
 
 ---
 
 ## 🔥 Features
-- 🟢 Real-time online/offline detection
-- 🔴 Visual status indicator (green/red dot)
-- ⏱️ Last online timestamp recording
-- 📢 Temporary notification popups for status changes
-- 📱 Responsive design works on all devices
+- Real-time online/offline detection
+- Visual status indicator with color codes
+- Automatic reconnection check every 10s
+- Stylish notification popups
+- Responsive & accessible design
+- Fully customizable UI
+
+---
 
 ## 🧰 Technologies Used
 - HTML5
 - CSS3 (with animations)
 - JavaScript (ES6)
 - Google Fonts (Poppins)
+
+---
 
 > Developed with ❤️ by [Kamran Javed](https://kamranjaved.com)

@@ -2,30 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internet Connection Monitor</title>
-    <meta name="author" content="Kamran Javed">
-    <meta name="copyright" content="OneDigitalLine.com">
+    <meta name="author" content="Kamran Javed" />
+    <meta name="copyright" content="OneDigitalLine.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <h1>Internet Connection Monitor</h1>
+
     <div class="status-container">
         <div class="status-indicator" id="statusIndicator"></div>
         <span id="statusText">Checking connection...</span>
         <div class="status-message" id="statusMessage"></div>
         <p id="lastSeen" class="hidden">Last online: <span id="lastOnlineTime"></span></p>
     </div>
+
     <div class="notification" id="notification"></div>
-    <div style="text-align: center; margin-top: 25px; font-size: 14px; color: #888;">
-        © <a href="https://onedigitalline.com" target="_blank"
-            style="color: #6c5ce7; text-decoration: none;">OneDigitalLine.com</a><br>
+
+    <footer>
+        © <a href="https://onedigitalline.com" target="_blank">OneDigitalLine.com</a><br />
         Made by Kamran Javed
-    </div>
-    <script src="script.js" type="text/javascript"></script>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 <!--

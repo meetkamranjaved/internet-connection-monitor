@@ -6,7 +6,8 @@ This is a clean, responsive UI component that shows your internet connectivity s
 ---
 
 ## 📸 Screenshot
-![image](https://github.com/user-attachments/assets/133c6d22-2a72-41e3-b4ba-7bcd724e3c70)
+![internet-connection-monitor-online](https://github.com/user-attachments/assets/9a7c48cb-86fb-4e2a-b3eb-ee05c94f251a)
+![internet-connection-monitor-off-line](https://github.com/user-attachments/assets/aef68384-d3ef-4274-bad0-d3828142d551)
 
 ---
 
